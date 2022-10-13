@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url('/images/나뭇잎왼.png'), url('/images/나뭇잎오른.png');
+  font-size: 14px;
+  background-color: rgba(49,89,158,1);
+  background-repeat: no-repeat,no-repeat;
+  background-position: top left, top right;
+
+}
+.MJMK{
+  width:150px;
+  height:150px;
+}
+h1{
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 4%;
+  left: 40%;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+}
+.input-area {
+  width: 20%;
+  height: 8%;
+  left: 40%;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+}
+#useremail{
+  top: 23%;
+}
+#useremail-ckeck {
+  top: 32%;
+}
+#username {
+  top: 50%;
+}
+#userpassward {
+  top: 59%;
+}
+#userpassward-check {
+  top: 68%;
+}
+#userdepartment {
+  top: 77%;
+}
+#btn-email-check {   
+  position: absolute;
+  top: 32%;
+  left: 61%;
+  width: 8%;
+  height: 8%;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  overflow: hidden;
+}
+#btn-email-send {   
+  position: absolute;
+  top: 23%;
+  left: 61%;
+  width: 8%;
+  height: 8%;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  overflow: hidden;
+}
+
+#finish {
+  width: 12%;
+  height: 8%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 85%;
+  left: 61%;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+}
