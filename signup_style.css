@@ -6,27 +6,28 @@ body {
   font-size: 14px;
   background-color: rgba(49,89,158,1);
   background-repeat: no-repeat,no-repeat;
-  background-position: top left, top right;
-
+  background-position: left, right;
 }
 .MJMK{
-  width:150px;
-  height:150px;
+  width:10%;
+  height:10%;
 }
 h1{
   color: rgba(255,255,255,1);
   position: absolute;
   top: 4%;
-  left: 40%;
+  left: 35%;
   font-weight: Bold;
   font-size: 50px;
   opacity: 1;
   text-align: left;
 }
 .input-area {
+  border:0;
+  outline: 0;
   width: 20%;
   height: 8%;
-  left: 40%;
+  left: 35%;
   background: rgba(255,255,255,1);
   opacity: 1;
   position: absolute;
@@ -49,25 +50,26 @@ h1{
 #userdepartment {
   top: 77%;
 }
-#btn-email-check {   
+.btn-email{
   position: absolute;
-  top: 32%;
-  left: 61%;
+  left: 56%;
   width: 8%;
   height: 8%;
   background: rgba(255,255,255,1);
   opacity: 1;
   overflow: hidden;
 }
+.btn-email:hover{
+  background-color: rgb(33, 65, 121);
+  color: white;
+  border:0;
+  outline: 0;
+}
+#btn-email-check {   
+  top: 32%;
+}
 #btn-email-send {   
-  position: absolute;
   top: 23%;
-  left: 61%;
-  width: 8%;
-  height: 8%;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  overflow: hidden;
 }
 
 #finish {
@@ -76,9 +78,17 @@ h1{
   color: rgba(0,0,0,1);
   position: absolute;
   top: 85%;
-  left: 61%;
+  left: 56%;
   font-family: Inter;
   font-weight: Regular;
   font-size: 20px;
   opacity: 1;
+  border:0;
+  outline: 0;
+}
+#finish:hover{
+  background-color: rgb(33, 65, 121);
+  color: white;
+  border:0;
+  outline: 0;
 }
